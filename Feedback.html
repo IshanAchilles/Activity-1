@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Feedback and Time Table</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <style>
+        .Home{
+    background-image: url(achievers.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.Heading1{
+    margin-bottom:20rem;
+}
+       table {
+			border:1px solid #b3adad;
+			border-collapse:collapse;
+			padding:5px;
+		}
+		table th {
+			border:1px solid #b3adad;
+			padding:5px;
+			background: #f0f0f0;
+			color: #313030;
+		}
+		table td {
+			border:1px solid #b3adad;
+			text-align:center;
+			padding:5px;
+			background: #ffffff;
+			color: #313030;
+		}
+        .form{
+            margin-top:4rem;
+        }
+    </style>
+    <div class="Home"> 
+        <header>
+        <div class="navi">
+          <nav>
+          <div class="dropdown">
+            <button><a href="index.html" class="ope">Home</a></button>
+            <div class="courses">
+              <button>Courses ▼</button>
+              <ul>
+                <li><a href="department.html">CSE</a></li>
+                <li><a href="#">Electronics</a></li>
+                <li><a href="#">Mechanical</a></li>
+                <li><a href="#">Civil</a></li>
+              </ul>
+            </div>
+            <div class="department">
+              <button>Activities ▼</button>
+              <ul>
+                <li><a href="Events.html">Events</a></li>
+                <li><a href="#">Clubs</a></li>
+                <li><a href="#">Achievements</a></li>
+              </ul>
+            </div>
+            <button><a href="Faculty.html" class="ope">Faculty</a></button>
+            <button><a href="Achievers.html" class="ope">Achievers</a></button>
+            <button><a href="Feedback.html" class="ope">Feedback</a></button>
+          </div>
+          </nav>
+        </div>
+      </header>
+        <div class="Heading1">
+          <h1>Time Table and Feedback</h1>
+          <h2>Get Info you want anytime anywhere!</h2>
+      </div>
+        <div class="Words1">
+          <h1>Time Table</h1>
+          <div class="container">
+
+          <div class="container1">
+<table border=1 cellspacing="0">
+
+<tr> 
+ <th colspan="6"> Time Table </th>
+</tr>
+
+<tr>
+ <td rowspan="6"> Hours </td>
+ <th> Monday </th>
+ <th> Tuesday </th>
+ <th> Wednesday </th>
+ <th> Thrusday</th>
+ <th> Friday </th>
+</tr>
+
+<tr>
+ <td>IWP</td>
+ <td>NetComm</td>
+ <td>Java</td>
+ <td>ALA</td>
+ <td>Projects</td>
+</tr>
+
+<tr>
+ <td>ALA</td>
+ <td>Java</td>
+ <td>IWP</td>
+ <td>NetComm</td>
+ <td>Projects</td>
+</tr>
+
+<tr>
+ <th colspan="5"> --Lunch--</th>
+</tr>
+
+<tr>
+ <td> IWP</td>
+ <td> Java</td>
+ <td> NetComm</td>
+ <td> ALA</td>
+ <td rowspan="2">--Games--</td>
+</tr>
+
+<tr>
+ <td>Java </td>
+ <td> IWP</td>
+ <td> ALA</td>
+ <td> NetComm</td>
+</tr>
+</table>
+            
+        </div>
+       </div>
+       <div class="form">
+           <h1>Feedback Form</h1>
+        <form>
+			<label for="name">Name</label>
+			<input type="text" id="name" ><br>
+			<label for="password">Password</label>
+			<input type="password" id="password"><br>
+			<label for="dob">DOB</label>
+			<input type="text" id="dob"><br>
+			<label for="email">E-mail</label>
+			<input type="text" id="email"><br>
+			<label for="phone">Mobile Number</label>
+			<input type="text" id="phone"><br><br>
+			<label for="dob">Any Other Feedback</label><br>
+			<input type="text" id="dob" style="width: 100%;"><br><br>
+			<input type="submit" value="Submit" style="width:120px; height: 50px; font-size: 100%;">
+		</form>
+       </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
